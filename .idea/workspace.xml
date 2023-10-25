@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15075f45-3b72-4a0b-8d04-182c571be38c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pertemuan7/Tugas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pertemuan7/Tugas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pertemuan7/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pertemuan7/data.txt" afterDir="false" />
-    </list>
+    <list default="true" id="15075f45-3b72-4a0b-8d04-182c571be38c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +166,7 @@
       <workItem from="1698233460257" duration="33000" />
       <workItem from="1698233568981" duration="277000" />
       <workItem from="1698233890065" duration="1493000" />
-      <workItem from="1698235426807" duration="3586000" />
+      <workItem from="1698235426807" duration="3889000" />
     </task>
     <servers />
   </component>

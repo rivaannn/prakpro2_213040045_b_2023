@@ -37,7 +37,6 @@ public class Tugas extends JFrame {
         }
     }
 
-
     public Tugas(){
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
