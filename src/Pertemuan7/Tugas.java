@@ -12,22 +12,31 @@ import java.util.Arrays;
 public class Tugas extends JFrame {
 
     private void saveToFile(ArrayList<ArrayList<String>> data) {
-        try {
-            // Tulis data ke file
-            BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\mriva\\IdeaProjects\\PraktikumPemogramanII\\src\\Pertemuan7\\data.txt"));
-            for (ArrayList<String> row : data) {
-                for (String s : row) {
-                    writer.write(s + "\t"); // memisahkan setiap data dengan tab
+        // Tampilkan pesan konfirmasi
+        int confirmed = JOptionPane.showConfirmDialog(null,
+                "Apakah Anda yakin ingin menyimpan data ke file?",
+                "Konfirmasi Simpan",
+                JOptionPane.YES_NO_OPTION);
+
+        if (confirmed == JOptionPane.YES_OPTION) {
+            try {
+                // Tulis data ke file
+                BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\mriva\\IdeaProjects\\PraktikumPemogramanII\\src\\Pertemuan7\\data.txt"));
+                for (ArrayList<String> row : data) {
+                    for (String s : row) {
+                        writer.write(s + "\t"); // memisahkan setiap data dengan tab
+                    }
+                    writer.newLine(); // pindah ke baris baru untuk data berikutnya
                 }
-                writer.newLine(); // pindah ke baris baru untuk data berikutnya
+                writer.close();
+                JOptionPane.showMessageDialog(null, "Data berhasil disimpan ke file!");
+            } catch (IOException e) {
+                JOptionPane.showMessageDialog(null, "Terjadi kesalahan saat menyimpan data");
+                e.printStackTrace();
             }
-            writer.close();
-            JOptionPane.showMessageDialog(null, "Data berhasil disimpan ke data.txt");
-        } catch (IOException e) {
-            JOptionPane.showMessageDialog(null, "Terjadi kesalahan saat menyimpan data");
-            e.printStackTrace();
         }
     }
+
 
     public Tugas(){
 
