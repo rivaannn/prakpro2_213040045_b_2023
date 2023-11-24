@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15075f45-3b72-4a0b-8d04-182c571be38c" name="Changes" comment="" />
+    <list default="true" id="15075f45-3b72-4a0b-8d04-182c571be38c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PraktikumPemogramanII.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PraktikumPemogramanII.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +27,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2VeJEfLkNXJOxO1F0SrbBqXGNLr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,18 +38,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/mriva/IdeaProjects/PraktikumPemogramanII/src/Pertemuan7",
+    "last_opened_file_path": "C:/Users/mriva/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "settings.editor.splitter.proportion": "0.3154574",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.splitter.proportion": "0.25216705",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -166,7 +181,29 @@
       <workItem from="1698233460257" duration="33000" />
       <workItem from="1698233568981" duration="277000" />
       <workItem from="1698233890065" duration="1493000" />
-      <workItem from="1698235426807" duration="3889000" />
+      <workItem from="1698235426807" duration="4336000" />
+      <workItem from="1698247426029" duration="17000" />
+      <workItem from="1698418272109" duration="405000" />
+      <workItem from="1698904610487" duration="12000" />
+      <workItem from="1698904793970" duration="10000" />
+      <workItem from="1700561787057" duration="15000" />
+      <workItem from="1700561923132" duration="55000" />
+      <workItem from="1700562231376" duration="261000" />
+      <workItem from="1700627101386" duration="13000" />
+      <workItem from="1700627483297" duration="104000" />
+      <workItem from="1700627723265" duration="89000" />
+      <workItem from="1700628075707" duration="1277000" />
+      <workItem from="1700634879609" duration="224000" />
+      <workItem from="1700635346168" duration="730000" />
+      <workItem from="1700636122078" duration="2135000" />
+      <workItem from="1700638357942" duration="2252000" />
+      <workItem from="1700665933567" duration="8095000" />
+      <workItem from="1700750641294" duration="251000" />
+      <workItem from="1700751332171" duration="4822000" />
+      <workItem from="1700805936607" duration="3970000" />
+      <workItem from="1700810233764" duration="104000" />
+      <workItem from="1700810349875" duration="138000" />
+      <workItem from="1700810648288" duration="1255000" />
     </task>
     <servers />
   </component>
