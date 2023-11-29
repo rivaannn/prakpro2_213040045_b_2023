@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="15075f45-3b72-4a0b-8d04-182c571be38c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pertemuan10/BiodataDB/main/ButtonAddActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pertemuan10/BiodataDB/main/ButtonAddActionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pertemuan10/BiodataDB/main/ButtonUpdateActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pertemuan10/BiodataDB/main/ButtonUpdateActionListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +216,7 @@
       <workItem from="1701170770599" duration="1589000" />
       <workItem from="1701238327315" duration="1432000" />
       <workItem from="1701239944242" duration="5698000" />
-      <workItem from="1701264919326" duration="4514000" />
+      <workItem from="1701264919326" duration="5293000" />
     </task>
     <servers />
   </component>

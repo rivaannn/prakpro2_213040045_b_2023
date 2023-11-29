@@ -36,22 +36,32 @@ public class ButtonUpdateActionListener implements ActionListener {
         String jenisKelamin = mainFrame.getJenisKelamin();
         String status = mainFrame.getStatus();
 
-        // Menetapkan data ke objek Biodata yang sudah ada
-        selectedBiodata.setNama(nama);
-        selectedBiodata.setAlamat(alamat);
-        selectedBiodata.setNoHp(noHp);
-        selectedBiodata.setJenisKelamin(jenisKelamin);
-        selectedBiodata.setStatus(status);
+        // Menampilkan pesan konfirmasi
+        int option = JOptionPane.showConfirmDialog(
+                mainFrame,
+                "Anda yakin ingin mengubah data?",
+                "Konfirmasi",
+                JOptionPane.YES_NO_OPTION);
 
-        // Melakukan update pada database
-        int result = biodataDao.update(selectedBiodata);
+        if (option == JOptionPane.YES_OPTION) {
+            // Menetapkan data ke objek Biodata yang sudah ada
+            selectedBiodata.setNama(nama);
+            selectedBiodata.setAlamat(alamat);
+            selectedBiodata.setNoHp(noHp);
+            selectedBiodata.setJenisKelamin(jenisKelamin);
+            selectedBiodata.setStatus(status);
 
-        if (result > 0) {
-            JOptionPane.showMessageDialog(mainFrame, "Data berhasil diupdate.", "Sukses", JOptionPane.INFORMATION_MESSAGE);
-            mainFrame.getTableModel().update(selectedRowIndex, selectedBiodata); // Perbarui data langsung pada model
-            mainFrame.clearForm(); // Mengosongkan field input setelah update
-        } else {
-            JOptionPane.showMessageDialog(mainFrame, "Gagal mengupdate data.", "Error", JOptionPane.ERROR_MESSAGE);
+            // Melakukan update pada database
+            int result = biodataDao.update(selectedBiodata);
+
+            if (result > 0) {
+                JOptionPane.showMessageDialog(mainFrame, "Data berhasil diupdate.", "Sukses", JOptionPane.INFORMATION_MESSAGE);
+                mainFrame.getTableModel().update(selectedRowIndex, selectedBiodata); // Perbarui data langsung pada model
+                mainFrame.clearForm(); // Mengosongkan field input setelah update
+            } else {
+                JOptionPane.showMessageDialog(mainFrame, "Gagal mengupdate data.", "Error", JOptionPane.ERROR_MESSAGE);
+            }
         }
     }
+
 }
