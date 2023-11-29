@@ -1,0 +1,5 @@
+ID, Nama, No HP, Jenis Kelamin, Status, Alamat
+3f837bc5-a0ef-47b9-859c-70c17931fe40, Rivan, 2817317312312, laki-laki, WNI, Bandung
+90932df9-b3a1-4736-b8b3-eedb9d58a568, Asep, 087127372, laki-laki, WNA, Subang
+affc1fc6-f4b4-4b3d-8205-bec65accfa62, Angelica, 08992182721, perempuan, WNA, Indoneisa
+e32760a8-cc1c-4876-9210-3f30d001bb0b, Van, 08827128271, laki-laki, WNA, Jakarta

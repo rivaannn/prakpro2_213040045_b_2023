@@ -41,7 +41,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mriva/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mriva/IdeaProjects/PraktikumPemogramanII/src/Pertemuan10&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,14 +62,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mriva\IdeaProjects\PraktikumPemogramanII\src\Pertemuan10" />
       <recent name="C:\Users\mriva\IdeaProjects\PraktikumPemogramanII\src\Pertemuan7" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Pertemuan10.BiodataDB.main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Pertemuan9.BiodataDB.db" />
       <recent name="Pertemuan6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainFrame">
+  <component name="RunManager" selected="Application.Pertemuan10.BiodataDB.main.MainFrame">
     <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pertemuan9.BiodataDB.main.MainFrame" />
       <module name="PraktikumPemogramanII" />
@@ -83,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tugas (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pertemuan7.Tugas" />
+    <configuration name="Pertemuan10.BiodataDB.main.MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pertemuan10.BiodataDB.main.MainFrame" />
       <module name="PraktikumPemogramanII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pertemuan7.*" />
+          <option name="PATTERN" value="Pertemuan10.BiodataDB.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pertemuan10.BiodataDB.main.MainFrame" />
         <item itemvalue="Application.MainFrame" />
         <item itemvalue="Application.tes" />
         <item itemvalue="Application.Tugas" />
         <item itemvalue="Application.Tugas (2)" />
-        <item itemvalue="Application.Tugas (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +211,10 @@
       <workItem from="1701143043478" duration="2412000" />
       <workItem from="1701145673027" duration="68000" />
       <workItem from="1701145817942" duration="482000" />
+      <workItem from="1701170770599" duration="1589000" />
+      <workItem from="1701238327315" duration="1432000" />
+      <workItem from="1701239944242" duration="5698000" />
+      <workItem from="1701264919326" duration="4514000" />
     </task>
     <servers />
   </component>
